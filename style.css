@@ -22,12 +22,6 @@ body {
   justify-content: center;
 }
 
-.card:hover,
-.card:focus {
-	transform: translate(-2px, -2px);
-	box-shadow: 9px 9px 0 0 black;
-}
-
 .card {
 	width: 330px;
 	border-radius: 15px;
@@ -35,6 +29,12 @@ body {
 	background-color: white;
 	padding: 24px;
 	box-shadow: 7px 7px 0 0 black;
+}
+
+.card:hover,
+.card:focus {
+	transform: translate(-2px, -2px);
+	box-shadow: 9px 9px 0 0 black;
 }
 
 .illustration {
@@ -51,6 +51,10 @@ body {
 	border-radius: 3px;
 	font-weight: 800;
 	font-size: 0.8rem;
+}
+
+.button:hover {
+	color: white;
 }
 
 .date {
