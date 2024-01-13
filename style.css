@@ -29,6 +29,7 @@ body {
 	background-color: white;
 	padding: 24px;
 	box-shadow: 7px 7px 0 0 black;
+	transition: all 0.25s ease-in-out;
 }
 
 .card:hover,
