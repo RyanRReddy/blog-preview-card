@@ -22,6 +22,12 @@ body {
   justify-content: center;
 }
 
+.card:hover,
+.card:focus {
+	transform: translate(-2px, -2px);
+	box-shadow: 9px 9px 0 0 black;
+}
+
 .card {
 	width: 330px;
 	border-radius: 15px;
