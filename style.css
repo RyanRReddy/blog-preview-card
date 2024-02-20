@@ -1,45 +1,49 @@
+:root {
+	--Yellow: hsl(47, 88%, 63%);
+	--White: hsl(0, 0%, 100%);
+	--Grey: hsl(0, 0%, 50%);
+	--Black: hsl(0, 0%, 7%);
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-	background-color: hsl(47, 88%, 63%);
+	background-color: var(--Yellow);
 	font-family: Figtree;
 	font-weight: 400;
-	height: 100vh;
+	
+}
+
+.container {
+  height: 100vh;
 	display: flex;
 	align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.container {
-  max-width: 1440px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
 .card {
-	width: 330px;
-	border-radius: 15px;
-	border: 1px solid black;
-	background-color: white;
+	max-width: 384px;
+	height: auto;
 	padding: 24px;
-	box-shadow: 7px 7px 0 0 black;
+	border: 1px solid var(--Black);
+	border-radius: 15px;
+	background-color: var(--White);
+	box-shadow: 7px 7px 0 0 var(--Black);
 	transition: all 0.25s ease-in-out;
 }
 
 .card:hover,
 .card:focus {
 	transform: translate(-2px, -2px);
-	box-shadow: 9px 9px 0 0 black;
+	box-shadow: 9px 9px 0 0 var(--Black);
 }
 
 .illustration {
-	max-width: 100%;
+	width: 100%;
 	margin-bottom: 20px;
 	border-radius: 15px;
 }
@@ -47,7 +51,7 @@ body {
 .button {
 	color: inherit;
 	text-decoration: inherit;
-	background-color: hsl(47, 88%, 63%);
+	background-color: var(--Yellow);
 	padding: 5px 10px;
 	border-radius: 3px;
 	font-weight: 800;
@@ -55,7 +59,7 @@ body {
 }
 
 .button:hover {
-	color: white;
+	color: var(--White);
 }
 
 .date {
@@ -73,12 +77,12 @@ body {
 }
 
 .title:hover {
-	color: hsl(47, 88%, 63%);
+	color: var(--Yellow);
 }
 
 .description {
 	margin-bottom: 20px;
-	color: hsl(0, 0%, 50%);
+	color: var(--Grey);
 	font-weight: 400;
 	font-size: 0.85rem;
 	line-height: 1.5rem;
