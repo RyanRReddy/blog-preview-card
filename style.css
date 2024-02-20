@@ -32,7 +32,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border: 1px solid var(--Black);
-	border-radius: 15px;
+	border-radius: 20px;
 	background-color: var(--White);
 	box-shadow: 7px 7px 0 0 var(--Black);
 	transition: all 0.25s ease-in-out;
@@ -46,8 +46,8 @@ body {
 
 .illustration {
 	width: 100%;
-	margin-bottom: 20px;
-	border-radius: 15px;
+	margin-bottom: 24px;
+	border-radius: 10px;
 }
 
 .button {
