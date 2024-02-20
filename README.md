@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/blog-card-with-hover-animation-FWqTPGzMbp]
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-card-with-hover-animation-jsgth-J616]
 - Live Site URL: [https://ryanrreddy.github.io/blog-preview-card/]
 
 ### Built with
