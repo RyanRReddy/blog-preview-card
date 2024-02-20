@@ -26,9 +26,10 @@ body {
 }
 
 .card {
-	max-width: 384px;
+	max-width: 327px;
 	height: auto;
 	padding: 24px;
+	margin-bottom: 10px;
 	border: 1px solid var(--Black);
 	border-radius: 15px;
 	background-color: var(--White);
